@@ -33,6 +33,7 @@ body{
 
 .box-4{
     height: 515px;
+    background-color: #35365C;
 }
 
 .box-5{
@@ -40,11 +41,11 @@ body{
 }
 
 .box-6{
-    height: 691px;
+    height: 360px;
 }
 
 .footer{
-    height: 133;
+    height: 133px;
     background-color: #AACE9B;
     color: #000;
 }
@@ -69,6 +70,12 @@ body{
     height: 1068px;
     background-color: #E5F2ED;
 }
+
+.aside>img{
+    padding-left: 4;
+    padding-top: 18;
+}
+
 .dinb {
     display: inline-block;
 }
@@ -93,8 +100,48 @@ body{
 article{
     display: inline-block;
 }
+
+.box-2>h2{
+    width: 452px;
+    height: 53px;
+    left: 84px;
+    top: 193px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 53px;
+    text-transform: uppercase;
+}
+
+.box-2>h3{
+
+}
+
+.box-2>p{
+    width: 1034px;
+    height: 247px;
+    padding-left: 84px;
+    padding-top: 167px;    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 39px;
+}
+
+.box-2>img{
+    width: 267px;
+    height: 236px;
+    padding-left: 63px;
+    padding-top: 117px;
+    float: right;
+}
+
+
+
 .box-5>h2{
-    width: 318px;
+    width: 352px;
     height: 59px;
     padding-left: 48px;
     padding-top: 19px;
@@ -102,16 +149,50 @@ article{
     font-weight: 600;
     font-size: 50px;
     line-height: 59px;
+    text-transform: uppercase;
 }
 
 .box-5>p{
     width: 1369px;
     height: 236px;
-    left: 76px;
-    top: 85px;
+    padding-left: 76px;
+    padding-top: 7px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 50px;
     line-height: 59px;
+}
+
+.footer>p{
+    width: 765px;
+    height: 38px;
+    padding-left: 45px;
+    padding-top: 47px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.icon1{
+    width: 71px;
+    height: 71px;
+    padding: 31px 0px;
+}
+
+.icon2{
+    width: 71px;
+    height: 71px;
+    padding: 31px 0px;
+}
+
+.icon3{
+    width: 71px;
+    height: 71px;
+    padding: 31px 0px;
+}
+
+.icons{
+    float: right;
 }
